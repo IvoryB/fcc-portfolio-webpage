@@ -1,0 +1,96 @@
+body {
+  background-color: #E3E5DC;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-nav {
+   flex-direction: row;
+}
+.navbar-brand {
+  font-size: 1.5em;
+}
+nav {
+  background-color: rgba(25, 52, 65, 0.75);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7em;
+ -webkit-box-shadow: 0px 4px 22px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 22px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 22px -2px rgba(0,0,0,0.75);rgba(0,0,0,0.75);
+}
+nav a {
+  color: #fff;
+}
+nav a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-link:hover {
+   background-color: #0E1D24;
+  -webkit-box-shadow: 7px 10px 5px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 5px -5px rgba(0,0,0,0.75);
+box-shadow: 7px 10px 5px -5px rgba(0,0,0,0.75);
+}
+.pageOne {
+  background-image: url("https://images.unsplash.com/photo-1493679756707-21f12da1a0c2?dpr=2&auto=format&fit=crop&w=1500&h=998&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  height: 500px;
+}
+.pageOne p {
+  margin-top: 5em;
+  font-size: 1.5em;
+  text-align: center;
+}
+hr {
+  border-top: 3px solid #fff;
+}
+.pageTwo {
+  background: #91AA9D;
+}
+h3 {
+  text-align: center;
+  margin: 3em;
+  display: block;
+  padding-bottom: 1em;
+  border-bottom: 3px solid #fff;
+}
+.img-thumbnail {
+  margin-bottom: 2em;
+}
+.pageThree {
+  background: #5C7D73;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;  
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: rgba(25, 52, 65, 0.75);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color:  rgba(25, 68, 85, 0.75);
+}
+.pageFour ul {
+   list-style: none;
+  text-align: center;
+}
+.pageFour li {
+  display: inline;
+}
+.fa {
+  font-size: 3em;
+  color: #425952;
+  margin: 2em .75em;
+}
+.fa:hover {
+  color: rgba(25, 68, 85, 0.75);
+}
